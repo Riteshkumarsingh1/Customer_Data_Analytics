@@ -1,87 +1,75 @@
-LifeLink Blood Portal
-A dynamic Google Apps Script web application to facilitate blood donation management, donor registration, blood requests, and real-time blood stock tracking.
+# 👨🏻‍💻Customer Behavior Data Analyst Portfolio Project
+This project represents a complete, industry standard, end-to-end data analytics workflow, designed to mirror the real responsibilities of professional analysts in modern business environments. The project encompasses all critical stages of data analysis, from data preparation and modeling to insight generation, visualization, and reporting.
 
-Features
-User Roles: Admin, Donor, Requester with role-based access.
+This project is perfect for:
+- 📊 Data Analyst aspirants who want to build a strong **Portfolio Project** for interviews and LinkedIn
+- 📚 Anyone learning Python, SQL, and Power BI
+- 💼 Professionals preparing for interviews in Data Analytics, Data Science or Product Analytics roles
 
-Donor Registration: Secure donor signup with validation and sanitization.
 
-Blood Requests: Submit and track urgent blood requests.
+## 📌 Project Overview
+The goal of this project is to simulate a corporate-grade end-to-end data analytics workflow, demonstrating the ability to translate raw data into strategic business intelligence by:
 
-Dashboard: Real-time stats on donors, requests, and blood stock.
+✅ Data Preparation,Modeling & Exploratory Data Analysis (Python): Clean and transform the raw dataset for analysis.
 
-Donor Search: Admin-only paginated search by name, blood group, or city.
+✅ Data Analysis (SQL): Simulate business transactions, and run queries to extract insights on customer segments, loyalty, and purchase drivers.
 
-Authentication: User registration and secure login with hashed passwords.
+✅ Visualization & Insights (Power BI): Build an interactive dashboard that highlights key patterns and trends, enabling stakeholders to make data-driven decisions.
 
-Multi-page SPA: Content dynamically served based on URL parameters (?page=).
+✅ Report and Presentation: Write a clear project report summarizing your key findings and business recommendations. Prepare a presentation that visually communicates insights and actionable recommendations to stakeholders.
 
-Theming: Dark and light mode toggle.
+## 🚀 Live Dashboard
+[Click here](https://ritesh-customer-analysis.streamlit.app)
 
-Pages Included: Home (dashboard), About, FAQs, Contact, Privacy Policy, Terms and Conditions, Disclaimer.
+## 🛠️ How to Use This Project
 
-Backend: Google Sheets used as data backend for donors, requests, users, and stocks.
+1. **Open Customer_Shopping_Behavior_Analysis.ipynb notebook**
 
-Input Sanitization: Protects against injection by cleaning user input.
+    This file contains:
 
-Validation: Phone number format and required fields checked on server side.
+      - Data Import
 
-Setup Instructions
-Clone the repository or copy the project files to your local development environment.
+      - Data exploration
 
-Open the project in Google Apps Script Editor.
+      - Data cleaning
 
-Update the SPREADSHEET_ID in Code.gs to point to your Google Sheets backend.
+      - Connection to SQL Database
+  
+2. **Load the data from Python notebook into MySQL/PostgreSQL/MS SQL Server**
 
-Create or verify the following sheets exist in your spreadsheet (case-sensitive):
+      - Create a database in SQL
 
-Donors
+      - Run Python code to load data into SQL database
+  
+      - Open **customer_behavior_sql_queries.sql**
+  
+      - Answer Business Questions using SQL Queries 
+      
+3. **Connect the SQL Database to Power BI**
 
-Requests
+      - Open **customer_behavior_dashboard.pbix**
+   
+      - Create interactive dashboard in Power BI
+  
+4. **Create Project Report and Presentation**
 
-BloodStock
+      - Create project report
+   
+      - Build presentation deck using Gamma AI
 
-Users
+## 📜 License
 
-Deploy the project as a web app:
+MIT — feel free to fork, star, and use in your portfolio.
 
-Click Deploy > New deployment.
+## 👨‍💻 About the Author
+Hey, I’m Ritesh Kumar Singh, an Aspiring Data Analyst .
+I break down complex data topics into simple understandings.
 
-Choose Web app.
+ ### 🚀 Stay Connected & Join my Data Community
+If you enjoyed this project and want to keep learning and growing as a data analyst, let’s stay in touch! I regularly share content around SQL, data analytics, portfolio projects, job tips, and more.
 
-Set access permissions and deploy.
+💼 LinkedIn: [Ritesh Kumar Singh](https://www.linkedin.com/in/ritesh-kumar-singh-69b636322/)
+- Let’s connect professionally and grow your data career
 
-Access the URL provided to use the portal.
 
-Usage
-Register users and donors via the frontend forms.
-
-Submit blood requests and view donor availability.
-
-Admin users can search donors and view dashboard stats.
-
-Navigate between pages using the quick links (e.g., Home, About, FAQs).
-
-Toggle between dark and light modes for better accessibility.
-
-File Structure Highlights
-Code.gs — Backend Google Apps Script code handling data logic, validation, routing, and authentication.
-
-Index.html — Main SPA index page with navigation and dynamic content sections.
-
-Other HTML files (About.html, Faq.html, Contact.html, etc.) — Static pages served dynamically via doGet routing.
-
-Security Notes
-Basic input sanitization implemented on the server.
-
-Passwords are hashed using SHA-256 before storage (note: suitable for demo, recommend stronger hashing with salt in production).
-
-Role validation restricts sensitive operations.
-
-Support and Contact
-For issues, questions, or suggestions, contact:
-
-Email: csds23134@glbitm.ac.in
-
-Phone: +91 7755866281
-
+## 💡 Thanks for checking out the project! Your support means a lot! Feel free to star ⭐ this repo or share it with someone learning Data Analytics.🚀
